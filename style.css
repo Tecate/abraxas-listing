@@ -1,0 +1,81 @@
+@font-face {
+	font-family: futur;
+	src: url('FUTRFW.TTF');
+}
+
+@font-face {
+	font-family: hundin;
+	src: url('HunDIN1451.ttf');
+}
+@font-face {
+	font-family: drift;
+	src: url('drift.se.ttf');
+}
+
+a:link {text-decoration:none; color: #fff;}
+a:visited {text-decoration:none; color: #fff;}
+a:hover {text-decoration:underline; }
+a:active {text-decoration:underline;}
+
+body
+{
+	background: #000 url('blue-queen-night-sky.gif');
+	color: #fff;
+}
+
+#head
+{
+	width: 576px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav 
+{
+	width: 700px;
+	color: #fff;
+	font: 24px futur;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content
+{
+	width: 900px;
+	color: #FFFFF0;
+	margin-left:auto;
+	margin-right: auto;
+	background: #1A1A1A url('dark_brick_wall.png');
+	border-left: 2px solid #5A5A5A;
+	border-right: 2px solid #5A5A5A;
+	#font-family: "Lucida Console", Monaco, monospace;
+	font: 10px drift;
+}
+
+#stats
+{
+	width:99%;
+	font:12px hundin;
+	color: #FFF;
+	background: #1A1A1A;
+	padding: 4px;
+}
+
+#right
+{
+	float: right;
+}
+
+#centered
+{
+	text-align: center;
+	font: 12px hundin;
+}
+
+tr:nth-child(odd)		{ background: rgba(58, 58, 58, 0.5); }
+tr:nth-child(even)		{ background: rgba(42, 42, 42, 0.5); }
+
+.hundin
+{
+	font: 12px hundin;
+}
